@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    
+    
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<!--导航栏-->
+	<header>
+		<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+		    <div class="mui-scroll">
+		        <a href="#" class="mui-control-item"><i></i><b></b>资讯</a>
+		        <a href="#" class="mui-control-item"><i></i><b></b>学堂出品</a>
+		        <a href="#" class="mui-control-item"><i></i><b></b>红人黄页</a>
+		        <a href="#" class="mui-control-item"><i></i><b></b>案例分析</a>
+		        <a href="#" class="mui-control-item"><i></i><b></b>红人直通车</a>
+		        <a href="#" class="mui-control-item"><i></i><b></b>红人通告</a>
+		        <a href="#" class="mui-control-item"><i></i><b></b>书籍推荐</a>
+		        <a href="#" class="mui-control-item"><i></i><b></b>学堂成果</a>
+		        <a href="#" class="mui-control-item">
+		         	<i></i>
+		         	<b></b>众筹
+		        </a>
+		        <a href="#" class="mui-control-item">
+		         	<i></i>
+		         	<b></b>人气榜
+		        </a>
+		    </div>
+		</div>
+		<div class="logo">
+			<div class="fl logo_seek">
+				<a href="#"><span class="mui-icon mui-icon-search"></span></a>
+			</div>
+			<div class="fl logo_message">
+				<span class="mui-icon mui-icon-bars"></span>
+			</div>
+		</div>
+	</header>
+	<!--内容部分-->
+	<content>
+		<!--轮播-->
+		<banner>
+			<div id="slider" class="mui-slider" >
+			  <div class="mui-slider-group mui-slider-loop">
+			    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第一张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第二张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第三张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 第四张 -->
+			    <div class="mui-slider-item">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <img src="images/banner.jpg">
+			      </a>
+			    </div>
+			  </div>
+			</div>
+		</banner>
+		<!--推荐部分-->
+		<div class="recommend bf">
+			<p>推荐</p>
+			<div class="recommend_list">
+				<ul class="mui-table-view mui-grid-view mui-grid-9 bf">
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom1.png" alt="" /></span>
+					        <div class="mui-media-body">红人学堂</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom2.png" alt="" /></span>
+					        <div class="mui-media-body">学堂出品</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom3.png" alt="" /></span>
+					        <div class="mui-media-body">问答社区</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom4.png" alt="" /></span>
+					        <div class="mui-media-body">天天福利</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom5.png" alt="" /></span>
+					        <div class="mui-media-body">招生简章</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom6.png"/></span>
+					        <div class="mui-media-body">红人直通车</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom7.png" alt="" /></span>
+					        <div class="mui-media-body">书籍推荐</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a href="#">
+					        <span class="icon"><img src="images/inrecom8.png" alt="" /></span>
+					        <div class="mui-media-body">线下课程</div>
+					    </a>
+					</li>
+				</ul>
+			</div>
+			
+			
+		</div>
+		<!--资讯-->
+		<div class="message bf mt10">
+			<div class="message_title">
+				<p class="">资讯</p>
+				<a href="#"><span class="mui-icon mui-icon-arrowright"></span></a>
+			</div>
+			<div class="message_information">
+				<div class="information_tit">
+					<a href="#">LET ME LOVE YOU 成品舞分解教学</a>
+				</div>
+				<div class="img">
+					<a href="#">
+						<img src="images/newslist-adv1.jpg" alt="" />
+					</a>
+				</div>
+				<div class="share">
+					<ul class="mui-row">
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="#">
+								<div class="">
+									<span class="icon1"></span>
+									6666
+								</div>
+							</a>
+						</li>
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="">
+								<div class="">
+									<span class="icon1 icon1_grade"></span>
+									300
+								</div>
+							</a>
+						</li>
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="">
+								<div class="">
+									<span class="icon1 icon1_like"></span>
+									5000
+								</div>
+							</a>
+						</li>
+						<li class="mui-col-xs-3 mui-col-sm-3">
+							<a href="">
+								<div class="">
+									<span class="icon1 icon1_share"></span>
+									分享
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="message_drag">
+				<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+				    <div class="mui-scroll">
+				        <a class="mui-control-item mui-active">
+				            <div class=""><img src="images/innews-list1.jpg" alt="" /></div> 
+				            <div class="tit">Hamilton Evans New Rules</div> 
+				            <div class="txt">舞蹈课程</div> 
+				        </a>
+				        <a class="mui-control-item">
+				          <div class=""><img src="images/innews-list2.jpg" alt="" /></div>
+				          <div class="tit">LET ME LOVE YOU 成品舞分解教学</div> 
+				           <div class="txt">舞蹈课程</div> 
+				        </a>
+				        <a class="mui-control-item">
+				           <div class=""><img src="images/innews-list3.jpg" alt="" /></div>
+				           <div class="tit">Bad Liar - Selena Gomez 成品舞分解教学</div> 
+				            <div class="txt">舞蹈课程</div> 
+				        </a>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!--学堂出品-->
+		<div class="message bf mt10">
+			<div class="message_title">
+				<p class="">学堂出品</p>
+				<a href="#"><span class="mui-icon mui-icon-arrowright"></span></a>
+			</div>
+			<div class="message_information">
+				
+				<div class="img">
+					<div id="slider" class="mui-slider" >
+					  <div class="mui-slider-group mui-slider-loop">
+					    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					    <div class="mui-slider-item mui-slider-item-duplicate">
+					    		<div class="information_tit">
+								<a href="#">LET ME LOVE YOU 成品舞分解教学</a>
+							</div>
+						      <a href="#">
+						        <img src="images/newslist-adv1.jpg">
+						      </a>
+						      <div class="share">
+								<ul class="mui-row">
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<div class="">
+												<span class="icon1"></span>
+												6666
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_grade"></span>
+												300
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_like"></span>
+												5000
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_share"></span>
+												分享
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+					    </div>
+					    <!-- 第一张 -->
+					    <div class="mui-slider-item">
+						    	<div class="information_tit">
+								<a href="#">LET ME LOVE YOU 成品舞分解教学</a>
+							</div>
+						    <a href="#">
+						        <img src="images/newslist-adv1.jpg">
+						    </a>
+						    <div class="share">
+								<ul class="mui-row">
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<div class="">
+												<span class="icon1"></span>
+												6666
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_grade"></span>
+												300
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_like"></span>
+												5000
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_share"></span>
+												分享
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+					    </div>
+					    <!-- 第二张 -->
+					    <div class="mui-slider-item">
+					    		<div class="information_tit">
+								<a href="#">LET ME LOVE YOU 成品舞分解教学</a>
+							</div>
+						    <a href="#">
+						        <img  src="images/newslist-adv1.jpg">
+						    </a>
+						    <div class="share">
+								<ul class="mui-row">
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<div class="">
+												<span class="icon1"></span>
+												6666
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_grade"></span>
+												300
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_like"></span>
+												5000
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_share"></span>
+												分享
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+					    </div>
+					    <!-- 第三张 -->
+					    <div class="mui-slider-item">
+					    		<div class="information_tit">
+								<a href="#">LET ME LOVE YOU 成品舞分解教学</a>
+							</div>
+					      <a href="#">
+					        <img src="images/newslist-adv1.jpg">
+					      </a>
+					      <div class="share">
+								<ul class="mui-row">
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<div class="">
+												<span class="icon1"></span>
+												6666
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_grade"></span>
+												300
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_like"></span>
+												5000
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_share"></span>
+												分享
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+					    </div>
+					    <!-- 第四张 -->
+					    <div class="mui-slider-item">
+						    	<div class="information_tit">
+								<a href="#">LET ME LOVE YOU 成品舞分解教学</a>
+							</div>
+					      <a href="#">
+					        <img src="images/newslist-adv1.jpg">
+					      </a>
+					      <div class="share">
+								<ul class="mui-row">
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<div class="">
+												<span class="icon1"></span>
+												6666
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_grade"></span>
+												300
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_like"></span>
+												5000
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_share"></span>
+												分享
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+					    </div>
+					    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					    <div class="mui-slider-item mui-slider-item-duplicate">
+						    	<div class="information_tit">
+								<a href="#">LET ME LOVE YOU 成品舞分解教学</a>
+							</div>
+					      <a href="#">
+					        <img src="images/newslist-adv1.jpg">
+					      </a>
+					      <div class="share">
+								<ul class="mui-row">
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="#">
+											<div class="">
+												<span class="icon1"></span>
+												6666
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_grade"></span>
+												300
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_like"></span>
+												5000
+											</div>
+										</a>
+									</li>
+									<li class="mui-col-xs-3 mui-col-sm-3">
+										<a href="">
+											<div class="">
+												<span class="icon1 icon1_share"></span>
+												分享
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<!--最佳导师-->
+		<div class="optimum_best">
+			<div class="message_title">
+				<p class="">最佳导师</p>
+				<a href="#"><span class="mui-icon mui-icon-arrowright"></span></a>
+			</div>
+			<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+			    <div class="mui-scroll">
+			        <a class="mui-control-item mui-active">
+			            <span><i class="icon1">1</i><img src="images/intutor1.jpg" alt="" /></span>曾大师
+			        </a>
+			        <a class="mui-control-item">
+			          <span>	<i class="icon2">2</i><img src="images/intutor2.jpg" alt="" /></span>软萌妹
+			        </a>
+			        <a class="mui-control-item">
+			           <span><i class="icon3">3</i><img src="images/intutor3.jpg" alt="" /></span>米小虫
+			        </a>
+			        <a class="mui-control-item">
+			           <span><img src="images/intutor4.jpg" alt="" /></span>红网
+			        </a>
+			        <a class="mui-control-item">
+			           <span><img src="images/intutor5.jpg" alt="" /></span>即兴舞者
+			        </a>
+			        <a class="mui-control-item">
+			           <span><img src="images/intutor6.jpg" alt="" /></span>舞MINE
+			        </a>
+			        <a class="mui-control-item">
+			           <span><img src="images/intutor1.jpg" alt="" /></span>红网
+			        </a>
+			        <a class="mui-control-item">
+			           <span><img src="images/intutor2.jpg" alt="" /></span>即兴舞者
+			        </a>
+			        <a class="mui-control-item">
+			           <span><img src="images/intutor3.jpg" alt="" /></span>舞MINE
+			        </a>
+			    </div>
+			</div>
+			<ul class="mui-table-view mui-grid-view">
+			    <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/intutor3.jpg">
+			            <div class="mui-media-body">小胖迪</div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/intutor1.jpg">
+			            <div class="mui-media-body">李丽莉</div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/intutor5.jpg">
+			            <div class="mui-media-body">玄武</div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-3">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/intutor6.jpg">
+			            <div class="mui-media-body">日日呀</div>
+			        </a>
+			    </li>
+			</ul>
+		</div>
+		<!--精品课程-->
+		<div class="excellent_course">
+			<div class="message_title">
+				<p class="">精品课程</p>
+				<a href="#"><span class="mui-icon mui-icon-arrowright"></span></a>
+			</div>
+			<div id="slider" class="mui-slider" >
+			  <div class="mui-slider-group mui-slider-loop">
+			    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+				     <a href="#">
+				       	<img src="images/incourse1.jpg">
+				     </a>
+			    		<div class="txt"><a href="coursecon.html">Hip Hop初学者全身燃脂健身舞</a></div>
+					<div class="share">
+						<ul class="mui-row">
+							<li>
+								<a href="#">
+									<div class="">
+										<span class="icon1"></span>
+											6666
+									</div>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_grade"></span>
+											300
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_like"></span>
+											5000
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>    
+			    </div>
+			    <!-- 第一张 -->
+			    <div class="mui-slider-item">
+				    <a href="#">
+				        <img src="images/incourse1.jpg">
+				    </a>
+			    		<div class="txt"><a href="coursecon.html">Hip Hop初学者全身燃脂健身舞</a></div>
+			    		<div class="share">
+						<ul class="mui-row">
+							<li>
+								<a href="#">
+									<div class="">
+										<span class="icon1"></span>
+											6666
+									</div>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_grade"></span>
+											300
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_like"></span>
+											5000
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>   
+			    </div>
+			    <!-- 第二张 -->
+			    <div class="mui-slider-item">
+				    <a href="#">
+				        <img src="images/incourse3.jpg">
+				    </a>
+			    		<div class="txt"><a href="coursecon.html">Hip Hop初学者全身燃脂健身舞</a></div>
+			    		<div class="share">
+						<ul class="mui-row">
+							<li>
+								<a href="#">
+									<div class="">
+										<span class="icon1"></span>
+											6666
+									</div>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_grade"></span>
+											300
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_like"></span>
+											5000
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>   
+			    </div>
+			    <!-- 第三张 -->
+			    <div class="mui-slider-item">
+				    <a href="#">
+				        <img src="images/incourse2.jpg">
+				    </a>
+			    		<div class="txt"><a href="coursecon.html">Hip Hop初学者全身燃脂健身舞</a></div>
+			    		<div class="share">
+						<ul class="mui-row">
+							<li>
+								<a href="#">
+									<div class="">
+										<span class="icon1"></span>
+											6666
+									</div>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_grade"></span>
+											300
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_like"></span>
+											5000
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>   
+			    </div>
+			    <!-- 第四张 -->
+			    <div class="mui-slider-item">
+				    <a href="#">
+				        <img src="images/incourse3.jpg">
+				    </a>
+			    		<div class="txt"><a href="coursecon.html">Hip Hop初学者全身燃脂健身舞</a></div>
+			    		<div class="share">
+						<ul class="mui-row">
+							<li>
+								<a href="#">
+									<div class="">
+										<span class="icon1"></span>
+											6666
+									</div>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_grade"></span>
+											300
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_like"></span>
+											5000
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>   
+			    </div>
+			     <!-- 第五张 -->
+			    <div class="mui-slider-item">
+				    <a href="#">
+				        <img src="images/incourse1.jpg">
+				    </a>
+			    		<div class="txt"><a href="coursecon.html">Hip Hop初学者全身燃脂健身舞</a></div>
+			    		<div class="share">
+						<ul class="mui-row">
+							<li>
+								<a href="#">
+									<div class="">
+										<span class="icon1"></span>
+											6666
+									</div>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_grade"></span>
+											300
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_like"></span>
+											5000
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>   
+			    </div>
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <div class="mui-slider-item mui-slider-item-duplicate">
+				    <a href="#">
+				        <img src="images/incourse1.jpg">
+				    </a>
+			    		<div class="txt"><a href="coursecon.html">Hip Hop初学者全身燃脂健身舞</a></div>
+			    		<div class="share">
+						<ul class="mui-row">
+							<li>
+								<a href="#">
+									<div class="">
+										<span class="icon1"></span>
+											6666
+									</div>
+								</a>
+							</li>		
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_grade"></span>
+											300
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="">
+										<span class="icon1 icon1_like"></span>
+											5000
+									</div>
+								</a>
+							</li>
+						</ul>		
+					</div>   
+			    </div>
+			  </div>
+			  <div class="mui-slider-indicator">
+			    <div class="mui-indicator mui-active"></div>
+			    <div class="mui-indicator"></div>
+			    <div class="mui-indicator"></div>
+			    <div class="mui-indicator"></div>
+			     <div class="mui-indicator"></div>
+			  </div>
+			</div>
+		</div>
+		<!--关于我们-->
+		<div class="about">
+			<div class="message_title">
+				<p class="">关于我们</p>
+				<a href="#"><span class="mui-icon mui-icon-arrowright"></span></a>
+			</div>
+			<ul class="mui-table-view mui-grid-view">
+			    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/inabout1.jpg">
+			            <div class="mui-media-body">关于我们</div>
+			        </a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+			        <a href="#">
+			            <img class="mui-media-object" src="images/inabout2.jpg">
+			            <div class="mui-media-body">星探登录</div>
+			        </a>
+			    </li>
+			</ul>
+		</div>
+	</content>
+	
+	
+	
+	<footer>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active">
+				<span class="mui-icon mui-icon-home"></span>
+			    <span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item">
+			     <span class="mui-icon mui-icon-phone"></span>
+			     <span class="mui-tab-label">学堂</span>
+			</a>
+			<a class="mui-tab-item">
+			    	<span class="mui-icon mui-icon-email"></span>
+			    	<span class="mui-tab-label">注册</span>
+			</a>
+			<a class="mui-tab-item">
+			  	<span class="mui-icon mui-icon-gear"></span>
+			    <span class="mui-tab-label">问答</span>
+			</a>
+			<a class="mui-tab-item">
+			  	<span class="mui-icon mui-icon-gear"></span>
+			    <span class="mui-tab-label">我的</span>
+			</a>
+		</nav>
+	</footer>
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+  			interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+		$.ajax({
+			url:'http://www.hrxtvip.com/api/photographe/cate.html',
+			type:'GET',
+			dataType:'json',
+			success:function (data) {
+				console.log(data);
+			}
+		});
+		
+	</script>
+</body>
+</html>
